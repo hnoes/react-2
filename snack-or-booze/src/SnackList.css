@@ -1,0 +1,37 @@
+/* SnackList.css */
+
+.snack-list {
+    background-color: #f5f5f5; /* Soft background color */
+    text-align: center; /* Center content horizontally */
+    font-family: 'Helvetica', sans-serif; /* Elegant font */
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 24px; /* Increase font size for the heading */
+    margin-bottom: 20px; /* Add space below the heading */
+  }
+  
+  ul {
+    list-style-type: none; /* Remove list bullets */
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0; /* Add space between each snack item */
+  }
+  
+  .snack-button {
+    display: inline-block;
+    background-color: #007bff; /* Blue button color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding for the button */
+    text-decoration: none; /* Remove underline from links */
+    border-radius: 5px; /* Rounded corners for the button */
+    transition: background-color 0.3s; /* Smooth button hover effect */
+  }
+  
+  .snack-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
